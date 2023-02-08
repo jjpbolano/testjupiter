@@ -11,7 +11,7 @@
 
 # Write a predict function 
 def predict(args_dict):
-#     arg = args_dict.get('arg1')
+      arg = args_dict.get('data')
 #     predictor(arg)
-    return {'prediction': 'not implemented'}
+      return {'prediction':arg}
 
