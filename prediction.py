@@ -12,6 +12,7 @@
 # Write a predict function 
 def predict(args_dict):
       arg = args_dict.get('data')
+#     Just testing
 #     predictor(arg)
       return {'prediction':arg}
 
